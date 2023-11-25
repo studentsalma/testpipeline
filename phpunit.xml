@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit boostrtap="vendor/autoload.php"
+      colors="true"
+      stopOnFailure="false">
+      <testsuites>
+          <testsuites name="Calculator">
+          <directory >tests</directory>
+          </testsuites>
+      </testsuites>
+      </phpunit>
+
