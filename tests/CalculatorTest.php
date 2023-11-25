@@ -8,7 +8,7 @@ class CalculatorTest extends PHPUnit\Framework\TestCase
         $calculator = new App\Calculator();
 
         // Teste si l'addition fonctionne correctement
-        $this->assertEquals(4, $calculator->add(2, 2));
+        $this->assertEquals(5, $calculator->add(3, 2));
 
         // Teste si l'addition fonctionne avec des nombres négatifs
         $this->assertEquals(-2, $calculator->add(2, -4));
